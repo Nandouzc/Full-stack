@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: antiquewhite;
+}
+a{
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.564);
+    font-size: 1.5rem;
+    margin: 1rem;
+    background-color: #386641c2;
+    padding: 1rem;
+    border-radius: 20px;
+    transition: all 0.3s;
+}
+header{
+    text-align: center;
+    background-color: #a7c957;
+    padding: 2rem;
+    margin-bottom: -1.5rem;
+}
+header img{
+    height: 15rem;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: #A98467;
+}
+nav li{
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+}   
+nav a:hover{
+    color: #386641;
+    background-color: aliceblue;
+}
+section{
+    display: flex;
+    padding: 3rem;
+    margin: 2.5rem;
+    color: aliceblue;  
+}
+.banner{
+    background-image: url(images/grama.jpg);
+    background-size: 100% 120%;
+    border-radius: 30px;
+    margin-top: 0.5rem;
+}
+.banner h1{
+    font-size: 3.5rem;
+}
+article{
+    background-color: #386641;
+    padding: 2rem;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 30px;
+}
+article h2{
+    font-size: 1.7rem;
+}
+article img{
+    height: 180px;
+    width: 290px;
+    border-radius: 30px;
+}
+article p{
+    font-size: 1.2rem;
+}
+article a{
+    
+    font-size: 1.5rem;
+    color: #BC4749;
+    transition: all 1s ease;
+}
+article a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    margin: 3rem;
+    background-color: #DDE5B6;
+    margin: 0;
+    padding: 3rem;
+    align-items: end;
+}
+footer img{
+    height: 10rem;
+}
+footer div{
+    flex: 1;
+}
